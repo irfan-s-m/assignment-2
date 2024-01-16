@@ -8,7 +8,7 @@ dummy-text (Our Popular Tours): 2
 Dive into exotic cultures, savor breathtaking views, and embark on thrilling adventures in these mesmerizing global hotspots!
 
 list:
-Marrakech, Morocco: Lose yourself in the vibrant souks, indulge in flavorful cuisine, and marvel at the rich history within the walls of the medina.
+Dive into exotic cultures, savor breathtaking views, and embark on thrilling adventures in these mesmerizing global hotspots!
 
 Queenstown, New Zealand: Thrill-seekers rejoice in the adventure capital, surrounded by breathtaking landscapes and adrenaline-pumping activities.
 
