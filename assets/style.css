@@ -438,7 +438,7 @@ hr {
 
   /* GLOBAL STYLE */
   body {
-    width: 600px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 0;
   }
@@ -447,7 +447,7 @@ hr {
   .section-2,
   footer,
   .section-3, .section-4, .section-5 {
-    width: 540px;
+    max-width: 540px;
     margin: 0 auto;
     margin-top: 52px;
   }
