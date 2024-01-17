@@ -10,7 +10,7 @@ body {
 
 header,
 .section-2,
-.section-3 {
+.section-3, .section-4, .section-5 {
   width: 1170px;
   margin: 0 auto;
   margin-top: 52px;
@@ -231,8 +231,30 @@ nav a {
   justify-content: center;
   gap: 24px;
 }
-
 /* SECTION-3 END */
+/* SECTION-4 START */
+.section-4-heading {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid red;
+}
+
+.section-4-heading h1 {
+  text-align: center;
+}
+
+.section-4-heading p {
+  text-align: center;
+  display: flex;
+  border: 3px solid red;
+  justify-content: center;
+  width: 600px;
+  height: 100px;
+}
+
+
+
+/* SECTION-4 END */
 
 
 /* FOOTER START */
