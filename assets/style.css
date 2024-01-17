@@ -10,7 +10,9 @@ body {
 
 header,
 .section-2,
-.section-3, .section-4, .section-5 {
+.section-3,
+.section-4,
+.section-5 {
   width: 1170px;
   margin: 0 auto;
   margin-top: 52px;
@@ -231,12 +233,12 @@ nav a {
   justify-content: center;
   gap: 24px;
 }
+
 /* SECTION-3 END */
 /* SECTION-4 START */
 .section-4-heading {
   display: flex;
   flex-direction: column;
-  border: 3px solid red;
 }
 
 .section-4-heading h1 {
@@ -245,16 +247,130 @@ nav a {
 
 .section-4-heading p {
   text-align: center;
-  display: flex;
-  border: 3px solid red;
-  justify-content: center;
-  width: 600px;
-  height: 100px;
 }
 
+.section-4-row-1 {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
 
+.section-4-item-1 {
+  border-radius: 1rem;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  justify-content: center;
+  padding: 1rem;
+}
+
+.section-4-item-2 {
+  border-radius: 1rem;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+padding: 1rem;
+}
+
+.section-4-row-2 {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-4-row-2 > div {
+  border-radius: 1rem;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+padding: 1rem;
+}
 
 /* SECTION-4 END */
+
+/* SECTION-5-START */
+.section-5-container {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.section-5-form h4 {
+  color: #131318;
+font-family: Mulish;
+font-size: 1.5rem;
+font-weight: 800;
+}
+
+.section-5-form p {
+  color: #5A5A5D;
+font-family: Mulish;
+font-size: 1rem;
+font-weight: 400;
+}
+
+.section-5-form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+border: 1px solid #FF5400;
+padding: 1rem;
+}
+
+.section-5-form input {
+  border-radius: 0.5rem;
+background: rgba(19, 19, 24, 0.05);
+width: 393px;
+margin-bottom: 0.5rem;
+padding: 0.2rem;
+height: 52px;
+}
+
+.section-5-button {
+  width: 400px;
+height: 52px;
+  border-radius: 0.5rem;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 1.2rem;
+font-weight: 800;
+}
+
+.section-5-img {
+  background: url("../resources/Rectangle-8-1.png");
+  background-repeat: no-repeat;
+  width: 672px;
+  height: 422px;
+} 
+
+.section-5-transform{
+  border-radius: 1rem;
+background: #FF5400;
+width: 280px;
+height: 100px;
+transform: rotate(-19.628deg);
+position: relative;
+top: 266px;
+left: 388px;
+}
+
+.section-5-transform h6 {
+  color: #FFF;
+text-align: center;
+font-family: Mulish;
+margin-top: 1rem;
+font-size: 1rem;
+font-weight: 400;
+}
+
+.section-5-transform h2 {
+  color: #FFF;
+font-family: Mulish;
+text-align: center;
+font-size: 1.8rem;
+font-weight: 800;
+}
+
+/* SECTION-5 END */
 
 
 /* FOOTER START */
@@ -329,7 +445,8 @@ hr {
 
   header,
   .section-2,
-  footer, .section-3 {
+  footer,
+  .section-3, .section-4, .section-5 {
     width: 540px;
     margin: 0 auto;
     margin-top: 52px;
@@ -411,7 +528,6 @@ hr {
   .section-3-img-row-1 {
     flex-direction: column;
     max-width: 540px;
-
   }
 
   .section-3-img-row-2 {
@@ -423,7 +539,37 @@ hr {
     flex-direction: column;
     max-width: 540px;
   }
+
   /* SECTION-3 END */
+
+  /* SECTION-4 START */
+  .section-4-row-1 {
+    flex-direction: column;
+  }
+  /* SECTION-4 END */
+
+  .section-5-container {
+    flex-direction: column;
+    width: 540px;
+  }
+
+  .section-5-img {
+    max-width: 540px;
+  }
+
+  .section-5-form input{
+    width: 500px;
+  }
+
+  .section-5-button {
+    width: 510px;
+  }
+
+  .section-5-transform {
+    position: relative;
+    top: 266px;
+    left: 256px;
+  }
 
   /* FOOTER START */
   .footer-description p {
